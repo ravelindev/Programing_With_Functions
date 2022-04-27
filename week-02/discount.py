@@ -1,4 +1,4 @@
-# Copyright 2022, Rudt Ravelin. All rights reserved.
+# Copyright 2022, Rudy Ravelin. All rights reserved.
 
 """
 You work for a retail store that wants to increase sales on Tuesday
@@ -23,7 +23,7 @@ current_date_and_time = datetime.now()
 weekday = current_date_and_time.weekday()
 
 #weekday = 3
- 
+
 # Now Let's check if the weekday is Tuesday or Wednesday
 if subtotal >= 50 and (weekday == 1 or weekday == 2):
     # If the subtotal is greater than $50 and the weekday is Tuesday or Wednesday,
