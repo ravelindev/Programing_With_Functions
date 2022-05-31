@@ -61,7 +61,6 @@ def test_get_noun():
         # is one of the words in the plural_determiners list.
         assert word in plural_determiners
 
-
 def test_get_verb():
     # 1. Test the present tense.
 
